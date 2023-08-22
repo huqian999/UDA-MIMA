@@ -1,0 +1,6 @@
+SOURCE:
+  dataset: IBSR
+  PATH: /home/huqian/baby/DA_code/IBSR_18/IBSR_18_re
+  label_s: (9, 10, 11, 12, 13, 17, 18, 48, 49, 50, 51, 52, 53, 54)
+  label_t: (1, 1, 2, 3, 4, 5, 6, 1, 1, 2, 3, 4, 5, 6)
+  IDs_train: ['08', '09', '02', '07', '04', '05', '16', '03', '06']

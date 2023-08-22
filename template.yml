@@ -1,0 +1,16 @@
+CMD: '/home/data/hq/DA/MI_ADA.py'
+
+HPARAMS: [
+  {
+    batch_size: 4,
+    n_epochs: 40,
+    init_lr: 0.01,
+    init_lr_D: 1e-4,
+    step_size: 20,
+    gamma: 0.1,
+    #logdir: LOGDIR,
+    experiment: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    lambda_adv: 1,
+    lambda_D: 0.5
+  }
+]
