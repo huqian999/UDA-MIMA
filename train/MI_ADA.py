@@ -532,7 +532,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu_id', nargs='?', type=int, default=3)
     parser.add_argument('--seed', nargs='?', type=int, default=200)
     parser.add_argument('--batch_size', nargs='?', type=int, default=4)
-    parser.add_argument('--n_epochs', nargs='?', type=int, default=40)
+    parser.add_argument('--n_epochs', nargs='?', type=int, default=80)
     parser.add_argument('--num_iters', nargs='?', type=int, default=250)
     parser.add_argument('--init_lr', nargs='?', type=float, default=1e-2)
     parser.add_argument('--init_lr_D', nargs='?', type=float, default=1e-4)
